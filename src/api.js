@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: "http://contact-management-backend-suff.onrender.com/"
 });
 
 // Add token automatically if available
