@@ -1,0 +1,97 @@
+/* Full page layout */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+
+/* Card design */
+.auth-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  padding: 40px 35px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+/* Title */
+.auth-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1e3a8a; /* deep blue title */
+  margin-bottom: 25px;
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input {
+  width: 92%;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s ease;
+  background-color: #f9fafb;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Register button */
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb; /* primary blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.auth-btn:hover {
+  background-color: #1e40af;
+}
+
+.auth-btn:active {
+  transform: scale(0.98);
+}
+
+/* Switch text and link */
+.auth-switch {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.link-btn:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
